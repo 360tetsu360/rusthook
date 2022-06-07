@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="framework.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="core.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="asm">
+      <UniqueIdentifier>{f7d09d73-2461-438b-a804-f60c1fc6b19d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="hook.asm">
+      <Filter>asm</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>

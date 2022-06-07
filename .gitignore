@@ -1,0 +1,5 @@
+/target
+/Cargo.lock
+/core/.vs
+/core/core/x64
+/bin/core.lib
