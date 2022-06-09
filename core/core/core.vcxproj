@@ -162,13 +162,13 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="framework.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="core.cpp" />
   </ItemGroup>
   <ItemGroup>
     <MASM Include="hook.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hde64.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
